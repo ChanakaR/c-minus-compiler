@@ -1,0 +1,6 @@
+abc	Match the string "abc"
+[a-zA-Z]	Match any lower or uppercase letter.
+dog.*cat	Match any string starting with dog, and ending with cat.
+(ab)+		Match one or more occurrences of "ab" concatenated
+[^a-z]+		Match any string of one or more characters that do not include lower case a-z
+[+-]?[0-9]+	Match any string of one or more digits with an optional prefix of + or -
